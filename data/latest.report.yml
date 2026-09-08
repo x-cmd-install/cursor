@@ -5,13 +5,13 @@ about:
   head: 654b1b4
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-08T01:39:07Z
+  collectedAt: 2026-09-08T03:41:11Z
 timeline:
   created: 2023-03-12
   lastCommit: 2026-05-12
   lastRelease: 
 popularity:
-  star: 33225
+  star: 33224
   watcher: 258
   fork: 2289
   release: 0
@@ -76,7 +76,7 @@ total:
   commit: 217
 ---
 path: /home/runner/.x-repo/github.com/getcursor/cursor
-collectedAt: 2026-09-08T01:39:08Z
+collectedAt: 2026-09-08T03:41:14Z
 loc:
   Markdown:
     code: 0

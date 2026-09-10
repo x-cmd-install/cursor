@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T03:43:45Z
+  collectedAt: 2026-09-10T15:50:16Z
 timeline:
   created: 2023-03-12
   lastCommit: 2026-05-12
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 33225
+  star: 33228
   watcher: 258
-  fork: 2288
+  fork: 2287
   release: 0
   contributor: 42
   pullRequest: 98
@@ -80,7 +80,7 @@ total:
   commit: 217
 ---
 path: /home/runner/.x-repo/github.com/getcursor/cursor
-collectedAt: 2026-09-10T03:43:48Z
+collectedAt: 2026-09-10T15:50:17Z
 loc:
   Markdown:
     code: 0

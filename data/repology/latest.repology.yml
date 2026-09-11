@@ -14,8 +14,8 @@
   srcname: cursor-bin
   binname: cursor-bin
   visiblename: cursor-bin
-  version: 3.20.7
-  origversion: 3.20.7-1
+  version: 3.20.10
+  origversion: 3.20.10-1
   status: newest
   summary: AI-first coding environment
   maintainers:

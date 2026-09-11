@@ -48,9 +48,9 @@
 - repo: homebrew_casks
   srcname: cursor
   visiblename: Cursor
-  version: 3.19.19
+  version: 3.20.10
   origversion: null
-  status: outdated
+  status: newest
   summary: Write, edit, and chat about your code with AI
 - repo: nix_stable_24_11
   srcname: code-cursor
@@ -180,9 +180,9 @@
   subrepo: extras
   binname: cursor
   visiblename: cursor
-  version: 3.19.19
+  version: 3.20.10
   origversion: null
-  status: outdated
+  status: newest
   licenses:
     - Proprietary
 - repo: slackbuilds

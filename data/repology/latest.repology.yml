@@ -14,8 +14,8 @@
   srcname: cursor-bin
   binname: cursor-bin
   visiblename: cursor-bin
-  version: 3.20.14
-  origversion: 3.20.14-1
+  version: 3.20.17
+  origversion: 3.20.17-1
   status: newest
   summary: AI-first coding environment
   maintainers:
@@ -33,6 +33,20 @@
   summary: The AI Code Editor
   licenses:
     - Cursor EULA
+- repo: terra_rawhide
+  srcname: cursor
+  binname: cursor
+  visiblename: cursor
+  version: 3.17.8
+  origversion: 3.17.8-1.fcrawhide
+  status: outdated
+  summary: The AI Code Editor
+  maintainers:
+    - me@addi.lol
+  licenses:
+    - Proprietary AND Apache-2.0 AND LGPL-3.0-or-later AND MIT AND (MIT AND (BSD-3-Clause AND LGPL-2.1-or-later AND Apache-2.0 AND IJG AND MIT AND GPL-2.0-or-later AND ISC AND OpenSSL AND (MPL-1.1 OR GPL-2.0-only OR LGPL-2.0-only)))
+  categories:
+    - Unspecified
 - repo: exherbo
   subrepo: tombriden
   srcname: app-editors/cursor-bin
@@ -48,7 +62,7 @@
 - repo: homebrew_casks
   srcname: cursor
   visiblename: Cursor
-  version: 3.20.14
+  version: 3.20.17
   origversion: null
   status: newest
   summary: Write, edit, and chat about your code with AI
@@ -180,7 +194,7 @@
   subrepo: extras
   binname: cursor
   visiblename: cursor
-  version: 3.20.14
+  version: 3.20.17
   origversion: null
   status: newest
   licenses:
@@ -195,20 +209,6 @@
     - slackbuilds@dscp.org
   categories:
     - development
-- repo: terra_rawhide
-  srcname: cursor
-  binname: cursor
-  visiblename: cursor
-  version: 3.17.8
-  origversion: 3.17.8-1.fcrawhide
-  status: outdated
-  summary: The AI Code Editor
-  maintainers:
-    - me@addi.lol
-  licenses:
-    - Proprietary AND Apache-2.0 AND LGPL-3.0-or-later AND MIT AND (MIT AND (BSD-3-Clause AND LGPL-2.1-or-later AND Apache-2.0 AND IJG AND MIT AND GPL-2.0-or-later AND ISC AND OpenSSL AND (MPL-1.1 OR GPL-2.0-only OR LGPL-2.0-only)))
-  categories:
-    - Unspecified
 - repo: terra_rawhide
   srcname: cursor
   binname: cursor

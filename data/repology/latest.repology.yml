@@ -1,18 +1,20 @@
-- repo: nix_stable_24_11
-  srcname: code-cursor
-  visiblename: cursor
-  version: 0.42.4
-  origversion: null
-  status: outdated
-  summary: AI-powered code editor built on vscode
-  maintainers:
-    - seclark@nextquestion.net
-  licenses:
-    - Unfree
 - repo: nix_stable_26_05
-  srcname: code-cursor
+  srcname: code-cursor-fhs
   visiblename: cursor
   version: 3.5.17
+  origversion: null
+  status: outdated
+  summary: Wrapped variant of cursor which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
+  maintainers:
+    - aspauldingcode@gmail.com
+    - prc.zhao@outlook.com
+    - grubian2@gmail.com
+  licenses:
+    - Unfree
+- repo: nix_unstable
+  srcname: code-cursor
+  visiblename: cursor
+  version: 3.25.9
   origversion: null
   status: outdated
   summary: AI-powered code editor built on vscode
@@ -22,31 +24,12 @@
     - grubian2@gmail.com
   licenses:
     - Unfree
-- repo: exherbo
-  subrepo: tombriden
-  srcname: app-editors/cursor-bin
-  visiblename: app-editors/cursor-bin
-  version: 3.8.11
-  origversion: null
-  status: outdated
-  summary: Cursor AI Code Editor
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - app-editors
-- repo: homebrew_casks
-  srcname: cursor
-  visiblename: Cursor
-  version: 3.27.14
-  origversion: null
-  status: newest
-  summary: Write, edit, and chat about your code with AI
 - repo: aur
   srcname: cursor-appimage
   binname: cursor-appimage
   visiblename: cursor-appimage
-  version: 3.25.6
-  origversion: 3.25.6-1
+  version: 3.27.14
+  origversion: 3.27.14-1
   status: outdated
   summary: Cursor AI code editor (AppImage, extracted)
   maintainers:
@@ -57,8 +40,8 @@
   srcname: cursor-bin
   binname: cursor-bin
   visiblename: cursor-bin
-  version: 3.27.14
-  origversion: 3.27.14-1
+  version: 3.27.22
+  origversion: 3.27.22-1
   status: newest
   summary: AI-first coding environment
   maintainers:
@@ -76,6 +59,36 @@
   summary: The AI Code Editor
   licenses:
     - Cursor EULA
+- repo: exherbo
+  subrepo: tombriden
+  srcname: app-editors/cursor-bin
+  visiblename: app-editors/cursor-bin
+  version: 3.8.11
+  origversion: null
+  status: outdated
+  summary: Cursor AI Code Editor
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - app-editors
+- repo: homebrew_casks
+  srcname: cursor
+  visiblename: Cursor
+  version: 3.27.22
+  origversion: null
+  status: newest
+  summary: Write, edit, and chat about your code with AI
+- repo: nix_stable_24_11
+  srcname: code-cursor
+  visiblename: cursor
+  version: 0.42.4
+  origversion: null
+  status: outdated
+  summary: AI-powered code editor built on vscode
+  maintainers:
+    - seclark@nextquestion.net
+  licenses:
+    - Unfree
 - repo: nix_stable_25_05
   srcname: code-cursor
   visiblename: cursor
@@ -127,22 +140,9 @@
   licenses:
     - Unfree
 - repo: nix_stable_26_05
-  srcname: code-cursor-fhs
-  visiblename: cursor
-  version: 3.5.17
-  origversion: null
-  status: outdated
-  summary: Wrapped variant of cursor which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
-  maintainers:
-    - aspauldingcode@gmail.com
-    - prc.zhao@outlook.com
-    - grubian2@gmail.com
-  licenses:
-    - Unfree
-- repo: nix_unstable
   srcname: code-cursor
   visiblename: cursor
-  version: 3.25.9
+  version: 3.5.17
   origversion: null
   status: outdated
   summary: AI-powered code editor built on vscode
@@ -180,7 +180,7 @@
   subrepo: extras
   binname: cursor
   visiblename: cursor
-  version: 3.27.14
+  version: 3.27.22
   origversion: null
   status: newest
   licenses:

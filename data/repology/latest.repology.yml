@@ -1,27 +1,12 @@
-- repo: nix_stable_26_05
-  srcname: code-cursor-fhs
-  visiblename: cursor
-  version: 3.5.17
-  origversion: null
-  status: outdated
-  summary: Wrapped variant of cursor which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
-  maintainers:
-    - aspauldingcode@gmail.com
-    - prc.zhao@outlook.com
-    - grubian2@gmail.com
-  licenses:
-    - Unfree
-- repo: nix_unstable
+- repo: nix_stable_24_11
   srcname: code-cursor
   visiblename: cursor
-  version: 3.25.9
+  version: 0.42.4
   origversion: null
   status: outdated
   summary: AI-powered code editor built on vscode
   maintainers:
-    - aspauldingcode@gmail.com
-    - prc.zhao@outlook.com
-    - grubian2@gmail.com
+    - seclark@nextquestion.net
   licenses:
     - Unfree
 - repo: aur
@@ -78,17 +63,6 @@
   origversion: null
   status: newest
   summary: Write, edit, and chat about your code with AI
-- repo: nix_stable_24_11
-  srcname: code-cursor
-  visiblename: cursor
-  version: 0.42.4
-  origversion: null
-  status: outdated
-  summary: AI-powered code editor built on vscode
-  maintainers:
-    - seclark@nextquestion.net
-  licenses:
-    - Unfree
 - repo: nix_stable_25_05
   srcname: code-cursor
   visiblename: cursor
@@ -143,6 +117,32 @@
   srcname: code-cursor
   visiblename: cursor
   version: 3.5.17
+  origversion: null
+  status: outdated
+  summary: AI-powered code editor built on vscode
+  maintainers:
+    - aspauldingcode@gmail.com
+    - prc.zhao@outlook.com
+    - grubian2@gmail.com
+  licenses:
+    - Unfree
+- repo: nix_stable_26_05
+  srcname: code-cursor-fhs
+  visiblename: cursor
+  version: 3.5.17
+  origversion: null
+  status: outdated
+  summary: Wrapped variant of cursor which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
+  maintainers:
+    - aspauldingcode@gmail.com
+    - prc.zhao@outlook.com
+    - grubian2@gmail.com
+  licenses:
+    - Unfree
+- repo: nix_unstable
+  srcname: code-cursor
+  visiblename: cursor
+  version: 3.25.9
   origversion: null
   status: outdated
   summary: AI-powered code editor built on vscode

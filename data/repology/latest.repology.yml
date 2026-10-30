@@ -1,12 +1,13 @@
-- repo: nix_stable_24_11
-  srcname: code-cursor
+- repo: nix_stable_25_05
+  srcname: code-cursor-fhs
   visiblename: cursor
-  version: 0.42.4
+  version: 1.2.2
   origversion: null
   status: outdated
-  summary: AI-powered code editor built on vscode
+  summary: Wrapped variant of cursor which launches in a FHS compatible environment. Should allow for easy usage of extensions without nix-specific modifications.
   maintainers:
-    - seclark@nextquestion.net
+    - aspauldingcode@gmail.com
+    - prc.zhao@outlook.com
   licenses:
     - Unfree
 - repo: aur
@@ -63,6 +64,17 @@
   origversion: null
   status: newest
   summary: Write, edit, and chat about your code with AI
+- repo: nix_stable_24_11
+  srcname: code-cursor
+  visiblename: cursor
+  version: 0.42.4
+  origversion: null
+  status: outdated
+  summary: AI-powered code editor built on vscode
+  maintainers:
+    - seclark@nextquestion.net
+  licenses:
+    - Unfree
 - repo: nix_stable_25_05
   srcname: code-cursor
   visiblename: cursor
@@ -70,18 +82,6 @@
   origversion: null
   status: outdated
   summary: AI-powered code editor built on vscode
-  maintainers:
-    - aspauldingcode@gmail.com
-    - prc.zhao@outlook.com
-  licenses:
-    - Unfree
-- repo: nix_stable_25_05
-  srcname: code-cursor-fhs
-  visiblename: cursor
-  version: 1.2.2
-  origversion: null
-  status: outdated
-  summary: Wrapped variant of cursor which launches in a FHS compatible environment. Should allow for easy usage of extensions without nix-specific modifications.
   maintainers:
     - aspauldingcode@gmail.com
     - prc.zhao@outlook.com
@@ -199,9 +199,9 @@
   srcname: cursor
   binname: cursor
   visiblename: cursor
-  version: 3.26.16
-  origversion: 3.26.16-1.fcrawhide
-  status: outdated
+  version: 3.27.22
+  origversion: 3.27.22-1.fcrawhide
+  status: newest
   summary: The AI Code Editor
   maintainers:
     - me@addi.lol
@@ -213,9 +213,9 @@
   srcname: cursor
   binname: cursor
   visiblename: cursor
-  version: 3.26.16
-  origversion: 3.26.16-1.fcrawhide
-  status: outdated
+  version: 3.27.22
+  origversion: 3.27.22-1.fcrawhide
+  status: newest
   summary: The AI Code Editor
   maintainers:
     - me@addi.lol
@@ -227,9 +227,9 @@
   srcname: cursor
   binname: cursor-bash-completion
   visiblename: cursor-bash-completion
-  version: 3.26.16
-  origversion: 3.26.16-1.fcrawhide
-  status: outdated
+  version: 3.27.22
+  origversion: 3.27.22-1.fcrawhide
+  status: newest
   summary: Bash completion for cursor
   maintainers:
     - me@addi.lol
@@ -241,9 +241,9 @@
   srcname: cursor
   binname: cursor-zsh-completion
   visiblename: cursor-zsh-completion
-  version: 3.26.16
-  origversion: 3.26.16-1.fcrawhide
-  status: outdated
+  version: 3.27.22
+  origversion: 3.27.22-1.fcrawhide
+  status: newest
   summary: Zsh completion for cursor
   maintainers:
     - me@addi.lol

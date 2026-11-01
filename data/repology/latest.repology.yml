@@ -1,22 +1,10 @@
-- repo: nix_stable_25_05
-  srcname: code-cursor-fhs
-  visiblename: cursor
-  version: 1.2.2
-  origversion: null
-  status: outdated
-  summary: Wrapped variant of cursor which launches in a FHS compatible environment. Should allow for easy usage of extensions without nix-specific modifications.
-  maintainers:
-    - aspauldingcode@gmail.com
-    - prc.zhao@outlook.com
-  licenses:
-    - Unfree
 - repo: aur
   srcname: cursor-appimage
   binname: cursor-appimage
   visiblename: cursor-appimage
-  version: 3.27.14
-  origversion: 3.27.14-1
-  status: outdated
+  version: 3.27.22
+  origversion: 3.27.22-1
+  status: newest
   summary: Cursor AI code editor (AppImage, extracted)
   maintainers:
     - ali.molaei@aur
@@ -82,6 +70,18 @@
   origversion: null
   status: outdated
   summary: AI-powered code editor built on vscode
+  maintainers:
+    - aspauldingcode@gmail.com
+    - prc.zhao@outlook.com
+  licenses:
+    - Unfree
+- repo: nix_stable_25_05
+  srcname: code-cursor-fhs
+  visiblename: cursor
+  version: 1.2.2
+  origversion: null
+  status: outdated
+  summary: Wrapped variant of cursor which launches in a FHS compatible environment. Should allow for easy usage of extensions without nix-specific modifications.
   maintainers:
     - aspauldingcode@gmail.com
     - prc.zhao@outlook.com

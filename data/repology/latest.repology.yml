@@ -142,9 +142,9 @@
 - repo: nix_unstable
   srcname: code-cursor
   visiblename: cursor
-  version: 3.25.9
+  version: 3.27.22
   origversion: null
-  status: outdated
+  status: newest
   summary: AI-powered code editor built on vscode
   maintainers:
     - aspauldingcode@gmail.com
@@ -155,9 +155,9 @@
 - repo: nix_unstable
   srcname: code-cursor-fhs
   visiblename: cursor
-  version: 3.25.9
+  version: 3.27.22
   origversion: null
-  status: outdated
+  status: newest
   summary: Wrapped variant of cursor which launches in a FHS compatible environment, should allow for easy usage of extensions without nix-specific modifications
   maintainers:
     - aspauldingcode@gmail.com

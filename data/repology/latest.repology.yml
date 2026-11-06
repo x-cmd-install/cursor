@@ -1,34 +1,9 @@
-- repo: nix_stable_26_05
-  srcname: code-cursor
-  visiblename: cursor
-  version: 3.5.17
-  origversion: null
-  status: outdated
-  summary: AI-powered code editor built on vscode
-  maintainers:
-    - aspauldingcode@gmail.com
-    - prc.zhao@outlook.com
-    - grubian2@gmail.com
-  licenses:
-    - Unfree
-- repo: aur
-  srcname: cursor-appimage
-  binname: cursor-appimage
-  visiblename: cursor-appimage
-  version: 3.27.22
-  origversion: 3.27.22-1
-  status: outdated
-  summary: Cursor AI code editor (AppImage, extracted)
-  maintainers:
-    - ali.molaei@aur
-  licenses:
-    - custom
 - repo: aur
   srcname: cursor-bin
   binname: cursor-bin
   visiblename: cursor-bin
-  version: 3.28.7
-  origversion: 3.28.7-1
+  version: 3.29.9
+  origversion: 3.29.9-1
   status: newest
   summary: AI-first coding environment
   maintainers:
@@ -46,6 +21,18 @@
   summary: The AI Code Editor
   licenses:
     - Cursor EULA
+- repo: aur
+  srcname: cursor-appimage
+  binname: cursor-appimage
+  visiblename: cursor-appimage
+  version: 3.27.22
+  origversion: 3.27.22-1
+  status: outdated
+  summary: Cursor AI code editor (AppImage, extracted)
+  maintainers:
+    - ali.molaei@aur
+  licenses:
+    - custom
 - repo: exherbo
   subrepo: tombriden
   srcname: app-editors/cursor-bin
@@ -61,7 +48,7 @@
 - repo: homebrew_casks
   srcname: cursor
   visiblename: Cursor
-  version: 3.28.7
+  version: 3.29.9
   origversion: null
   status: newest
   summary: Write, edit, and chat about your code with AI
@@ -127,6 +114,19 @@
   licenses:
     - Unfree
 - repo: nix_stable_26_05
+  srcname: code-cursor
+  visiblename: cursor
+  version: 3.5.17
+  origversion: null
+  status: outdated
+  summary: AI-powered code editor built on vscode
+  maintainers:
+    - aspauldingcode@gmail.com
+    - prc.zhao@outlook.com
+    - grubian2@gmail.com
+  licenses:
+    - Unfree
+- repo: nix_stable_26_05
   srcname: code-cursor-fhs
   visiblename: cursor
   version: 3.5.17
@@ -180,7 +180,7 @@
   subrepo: extras
   binname: cursor
   visiblename: cursor
-  version: 3.28.7
+  version: 3.29.9
   origversion: null
   status: newest
   licenses:
@@ -199,8 +199,8 @@
   srcname: cursor
   binname: cursor
   visiblename: cursor
-  version: 3.27.22
-  origversion: 3.27.22-1.fcrawhide
+  version: 3.28.7
+  origversion: 3.28.7-1.fcrawhide
   status: outdated
   summary: The AI Code Editor
   maintainers:
@@ -213,8 +213,8 @@
   srcname: cursor
   binname: cursor
   visiblename: cursor
-  version: 3.27.22
-  origversion: 3.27.22-1.fcrawhide
+  version: 3.28.7
+  origversion: 3.28.7-1.fcrawhide
   status: outdated
   summary: The AI Code Editor
   maintainers:
@@ -227,8 +227,8 @@
   srcname: cursor
   binname: cursor-bash-completion
   visiblename: cursor-bash-completion
-  version: 3.27.22
-  origversion: 3.27.22-1.fcrawhide
+  version: 3.28.7
+  origversion: 3.28.7-1.fcrawhide
   status: outdated
   summary: Bash completion for cursor
   maintainers:
@@ -241,8 +241,8 @@
   srcname: cursor
   binname: cursor-zsh-completion
   visiblename: cursor-zsh-completion
-  version: 3.27.22
-  origversion: 3.27.22-1.fcrawhide
+  version: 3.28.7
+  origversion: 3.28.7-1.fcrawhide
   status: outdated
   summary: Zsh completion for cursor
   maintainers:

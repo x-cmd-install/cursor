@@ -1,4 +1,16 @@
 - repo: aur
+  srcname: cursor-appimage
+  binname: cursor-appimage
+  visiblename: cursor-appimage
+  version: 3.27.22
+  origversion: 3.27.22-1
+  status: outdated
+  summary: Cursor AI code editor (AppImage, extracted)
+  maintainers:
+    - ali.molaei@aur
+  licenses:
+    - custom
+- repo: aur
   srcname: cursor-bin
   binname: cursor-bin
   visiblename: cursor-bin
@@ -21,18 +33,6 @@
   summary: The AI Code Editor
   licenses:
     - Cursor EULA
-- repo: aur
-  srcname: cursor-appimage
-  binname: cursor-appimage
-  visiblename: cursor-appimage
-  version: 3.27.22
-  origversion: 3.27.22-1
-  status: outdated
-  summary: Cursor AI code editor (AppImage, extracted)
-  maintainers:
-    - ali.molaei@aur
-  licenses:
-    - custom
 - repo: exherbo
   subrepo: tombriden
   srcname: app-editors/cursor-bin
@@ -168,7 +168,7 @@
 - repo: pisi_contrib
   srcname: development/cursor
   visiblename: Cursor
-  version: 2.4.31
+  version: 3.20.17
   origversion: null
   status: outdated
   summary: The AI Code Editor

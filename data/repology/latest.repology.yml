@@ -1,3 +1,12 @@
+- repo: chromebrew
+  srcname: cursor
+  visiblename: cursor
+  version: 3.28.5
+  origversion: null
+  status: outdated
+  summary: The AI Code Editor
+  licenses:
+    - Cursor EULA
 - repo: aur
   srcname: cursor-appimage
   binname: cursor-appimage
@@ -7,7 +16,7 @@
   status: outdated
   summary: Cursor AI code editor (AppImage, extracted)
   maintainers:
-    - ali.molaei@aur
+    - fallback-mnt-aur@repology
   licenses:
     - custom
 - repo: aur
@@ -24,15 +33,6 @@
     - oech3@aur
   licenses:
     - LicenseRef-Cursor_EULA
-- repo: chromebrew
-  srcname: cursor
-  visiblename: cursor
-  version: 3.28.5
-  origversion: null
-  status: outdated
-  summary: The AI Code Editor
-  licenses:
-    - Cursor EULA
 - repo: exherbo
   subrepo: tombriden
   srcname: app-editors/cursor-bin
